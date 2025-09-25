@@ -15,7 +15,7 @@ public class PayrollCalculator {
 
         System.out.println("Pay Rate: ");
         float payRate = scanner.nextFloat();
-
+        //this is a thing
         float grossPay = hoursWorked * payRate;
 
         System.out.printf(yourName + " made " + "$" + grossPay + " this week.");
